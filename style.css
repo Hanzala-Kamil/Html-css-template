@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common design  */
+
+.h2{
+    padding: 20px 0 10px;
+    color: #979AA1;
+    font-size: 18px;
+}
+.p{
+    font-size: 14.5px;
+    padding: 5px 0 10px;
+    color: #979AA1;
+}
+.a{
+    font-size: small;
+    text-decoration: none;
+    color: orange;
+    padding-bottom: 10px;
+}
+header{
+    min-width: 100%;
+}
+.head{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #979AA1;
+}
+.nav ul{
+    display: flex;
+}
+.nav li{
+    margin-left: 15px;
+    list-style-type: none;
+    color: #979AA1;
+    font-size: 15px;    
+}
+.s-1{
+    width: 60%;
+    margin: auto;
+}
+.box{
+    background: #000;
+    min-width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.container{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+}
+.left{
+    max-width: 30%;
+}
+.right{
+    min-width: 70%;
+    padding-left: 20px;
+}
+.li{
+    list-style-position:unset;
+    margin-left: 8px;
+    list-style-type: '▶';
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted black;
+    padding-left: 10px;
+}
+
+::marker{
+    color: orange;
+    font-size: 10px;
+    list-style-type: '▶';
+}
+.pp{
+    color: #979AA1;
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+}
+.footr{
+    width: 60%;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #979AA1;
+}
+.a-1{
+    color: #979AA1;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+    left: 0;
+}
+.aa{
+    color: #979AA1;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+    display: inline-block;
+}
+span{
+    color: orange;
+}
